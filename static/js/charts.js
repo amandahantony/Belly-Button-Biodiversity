@@ -167,6 +167,6 @@ function buildCharts(sample) {
   Plotly.newPlot("gauge-plot", gaugeData, gaugeLayout)
 
   });
-}
+};
 
 
