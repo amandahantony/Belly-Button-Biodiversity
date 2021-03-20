@@ -8,12 +8,18 @@
   <title>Bellybutton Biodiversity</title>
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
 
+  <style>
+    p    {color: white;}
+
+     
+  </style> 
   
 </head>
 
 <body>
 
   <div class="container">
+    <div class="col-xs-6 col-sm-4"></div>
     <div class="row">
       <div class="jumbotron text-center"
         style="background-image: url('https://cdn-a.william-reed.com/var/wrbm_gb_food_pharma/storage/images/publications/food-beverage-nutrition/nutraingredients.com/article/2019/10/04/gut-health-affected-by-teams-of-bacteria-not-individual-species/10214854-1-eng-GB/Gut-health-affected-by-teams-of-bacteria-not-individual-species.jpg');
@@ -25,13 +31,13 @@
     <div class="row">
       <div class="col-md-2">
         <div class="well">
-          <h5>Test Subject ID No.:</h5>
+          <h5><center>Test Subject ID No.:</center></h5>
           <!-- <select id="selDataset"></select> -->
           <select id="selDataset" onchange="optionChanged(this.value)"></select>
         </div>
         <div class="panel panel-primary">
           <div class="panel-heading">
-            <h3 class="panel-title">Demographic Info</h3>
+            <h3 class="panel-title"><strong><center>Demographic Info</center></strong></h3>
           </div>
           <div id="sample-metadata" class="panel-body"></div>
         </div>
@@ -40,7 +46,7 @@
         <div id="bar-plot"></div>
       </div>
       <div class="col-md-5">
-        <div id="gauge"></div>
+        <div id="gauge-plot"></div>
       </div>
     </div>
     <div class="row">
